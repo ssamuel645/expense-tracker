@@ -1,3 +1,5 @@
 .env
-db/app.db
+.env.test
+dist
+db/*.db
 node_modules
