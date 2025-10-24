@@ -13,7 +13,8 @@ export default defineConfig([
       '@stylistic/ts/indent': ['error', 2],
       '@stylistic/ts/quotes': ['warn', 'single'],
       '@stylistic/ts/semi': ['error', 'always'],
-      '@stylistic/ts/object-curly-spacing': ['warn', 'always']
+      '@stylistic/ts/object-curly-spacing': ['warn', 'always'],
+      'max-len': ['error', { 'code': 80, 'tabWidth': 2 }]
     },
   },
   {
